@@ -8,6 +8,10 @@ html {
   font-size: 62.5%;
 }
 
+:root {
+  --primary-color: #080415;
+}
+
 body {
   font-size: 1.6rem;
   font-family: "DM Sans", sans-serif;
@@ -27,6 +31,7 @@ a {
   line-height: 1.7;
   background: #5d3bee;
   padding: 16px 37px;
+  transition: all 0.35s ease-in-out;
 }
 
 .demo {
@@ -80,10 +85,15 @@ a {
 }
 
 .header__mailto {
-  color: #080415;
+  color: var(--primary-color);
   font-size: 2.2rem;
   font-weight: 500;
   text-decoration-line: underline;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
 }
 
 .nav__list {
@@ -100,7 +110,7 @@ a {
 }
 
 .nav__link:hover {
-  color: #080415;
+  color: var(--primary-color);
   text-shadow: 1px 0 1px currentColor;
 }
 
@@ -129,7 +139,7 @@ a {
 }
 
 .hero__right-heading {
-  color: #080415;
+  color: var(--primary-color);
   font-size: 8rem;
   font-weight: 500;
   line-height: 0.9;
@@ -151,10 +161,15 @@ a {
 
 .hero__btn {
   background-color: transparent;
-  color: #080415;
+  color: var(--primary-color);
   font-weight: 700;
   text-decoration-line: underline;
   margin-left: -20px;
+}
+
+.btn:first-child:hover {
+  animation-name: button;
+  background-color: var(--primary-color);
 }
 
 .hero .row {
@@ -187,7 +202,7 @@ a {
 
 .client__heading {
   position: relative;
-  color: #080415;
+  color: var(--primary-color);
   font-size: 4.2rem;
   font-weight: 500;
   line-height: 1.2;
@@ -211,4 +226,73 @@ a {
   grid-template-columns: repeat(4, 1fr);
   column-gap: 80px;
   row-gap: 35px;
+}
+
+.client__image {
+  transition: all 0.35s ease-in-out;
+}
+
+.client__image:hover {
+  cursor: pointer;
+  transform: scale(1.3);
+}
+
+/* Special */
+.special {
+  margin-top: 147px;
+}
+
+.special__heading {
+  color: var(--primary-color);
+  font-size: 5.6rem;
+  font-weight: 500;
+  text-align: center;
+  line-height: 1.2;
+  letter-spacing: -2.24px;
+}
+
+.special__desc {
+  color: #51586a;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+.special__item {
+  margin-left: 70px;
+  margin-top: 93px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.special__name {
+  margin-top: 22px;
+  color: var(--primary-color);
+  font-size: 3.2rem;
+  font-weight: 500;
+  line-height: 40px; /* 125% */
+  letter-spacing: -1.28px;
+}
+
+.special__icon-desc {
+  margin-top: 15px;
+  color: #51586a;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.7;
+  width: 285px;
+}
+
+.special__img {
+  width: 55px;
+}
+
+.special__image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #080415;
+  border-radius: 50%;
 }
