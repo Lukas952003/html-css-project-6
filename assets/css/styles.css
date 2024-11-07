@@ -39,7 +39,7 @@ a {
   min-height: 100px;
   background-color: orange;
   margin-bottom: 20px;
-  color: #fff;
+  color: blue;
   font-weight: 600px;
   font-size: 3rem;
   display: flex;
@@ -168,8 +168,7 @@ a {
 }
 
 .btn:first-child:hover {
-  animation-name: button;
-  background-color: var(--primary-color);
+  background-color: orange;
 }
 
 .hero .row {
@@ -260,7 +259,7 @@ a {
 }
 
 .special__item {
-  margin-left: 70px;
+  margin-left: 55px;
   margin-top: 93px;
   display: flex;
   flex-direction: column;
@@ -295,4 +294,84 @@ a {
   justify-content: center;
   border: 1px solid #080415;
   border-radius: 50%;
+}
+
+.project {
+  margin-top: 172px;
+  background: #5d3bee;
+  padding-bottom: 100px;
+}
+
+.project__title,
+.project__desc {
+  padding-top: 86px;
+}
+
+.project__name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background: #fbfaff;
+}
+
+.project__recents {
+  margin-top: 70px;
+}
+
+.project__title {
+  color: #fff;
+  font-size: 5.6rem;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: -2.24px;
+}
+
+.project__desc {
+  color: #cac6c6;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.7;
+  width: 370px;
+}
+
+.projects__title {
+  color: var(--primary-color);
+  font-size: 3.2rem;
+  font-weight: 500;
+  line-height: 1.25;
+  letter-spacing: -1.28px;
+}
+
+.projects__desc {
+  margin-top: 10px;
+  width: 220px;
+  color: #51586a;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.projects__btn {
+  margin-top: 20px;
+  color: var(--primary-color);
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.7;
+  text-decoration-line: underline;
+}
+
+.projects__left {
+  margin-right: 47px;
+}
+
+.project__button {
+  margin-top: 80px;
+}
+
+.project__btn {
+  color: var(--primary-color);
+  font-size: 1.8rem;
+  font-weight: 700;
+  background: #fff;
 }
