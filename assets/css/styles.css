@@ -313,6 +313,17 @@ a {
   justify-content: center;
   padding: 24px;
   background: #fbfaff;
+  transition: all 0.35s ease-in-out;
+}
+
+.project__name:hover {
+  transform: translateY(-15px);
+  box-shadow: 5px 9px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 5px 9px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 5px 9px 5px 0px rgba(0, 0, 0, 0.75);
+  background-color: #bfb6e9;
+  border: 1px solid #fff;
+  border-radius: 24px;
 }
 
 .project__recents {
@@ -374,4 +385,113 @@ a {
   font-size: 1.8rem;
   font-weight: 700;
   background: #fff;
+}
+
+/* Interactive Designer */
+.interac {
+  margin-top: 140px;
+}
+
+.interac__inner {
+  display: flex;
+  flex-direction: column;
+}
+
+.interac__container-title {
+  display: flex;
+  gap: 9px;
+  align-items: center;
+  justify-content: center;
+}
+
+.interac__title {
+  color: #5d3bee;
+  font-size: 3.2rem;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: -1.28px;
+}
+
+.interac__heading {
+  text-align: center;
+  margin-top: 10px;
+  color: #080415;
+  font-size: 5.6rem;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: -2.24px;
+}
+
+.interac__desc {
+  margin-top: 15px;
+  color: #51586a;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+.interac__name {
+  margin-top: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-left: 150px;
+}
+
+.interac__exp {
+  color: #080415;
+  font-size: 5.6rem;
+  font-weight: 500;
+  line-height: 1.4;
+  letter-spacing: 1.68px;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: none;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+}
+
+.interac__desc-exp {
+  color: #51586a;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+.interac__video {
+  margin-top: 70px;
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
+  height: 628px;
+}
+
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.button-play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.intro-video {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  color: #51586a;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.7;
+  text-transform: uppercase;
+  background-color: #fff;
+  padding: 16px 28px;
 }
