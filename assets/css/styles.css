@@ -498,8 +498,10 @@ a {
 
 /* people */
 .people {
+  position: relative;
   background: #fbfaff;
   padding-bottom: 74px;
+  overflow: hidden;
 }
 
 .people__inner {
@@ -591,6 +593,20 @@ a {
   background-color: #5d3bee; /* Màu tím cho chấm */
   border-radius: 50%; /* Tạo hình tròn */
   box-shadow: 0 0 0 4px white, 0 0 0 6px #5d3bee; /* Tạo viền trắng ở giữa và viền xanh bên ngoài */
+}
+
+.people__decor-01 {
+  position: absolute;
+  bottom: 0;
+  left: -50px;
+  width: 20%;
+}
+
+.people__decor-02 {
+  position: absolute;
+  width: 20%;
+  right: -50px;
+  bottom: 0;
 }
 
 /* question */
@@ -762,4 +778,50 @@ a {
 .talk__decor-03 {
   right: -450px;
   top: -150px;
+}
+
+/* Footer */
+.footer {
+  margin-top: 50px;
+}
+
+.footer__inner .header__inner {
+  justify-content: space-between;
+}
+
+.footer__id {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__policy {
+  display: flex;
+  gap: 26;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.footer__policy a {
+  margin-left: 26px;
+  color: #525771;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: -0.54px;
+}
+
+.footer__policy-01 {
+  position: relative;
+}
+
+.footer__policy-01::after {
+  position: absolute;
+  display: inline-block;
+  content: "";
+  right: -15px;
+  bottom: 2px;
+  width: 3px;
+  height: 20px;
+  background-color: #525771;
 }
