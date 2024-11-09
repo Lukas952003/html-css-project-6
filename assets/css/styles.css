@@ -745,6 +745,7 @@ a {
   top: -120px;
   width: 90%;
   left: 30px;
+  pointer-events: none; /*vô hiệu hóa sự kiện cho ảnh trang trí để không làm ảnh hưởng đến nút*/
 }
 
 .talk__decor-02,
