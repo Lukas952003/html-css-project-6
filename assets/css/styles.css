@@ -497,6 +497,11 @@ a {
 }
 
 /* people */
+.people {
+  background: #fbfaff;
+  padding-bottom: 74px;
+}
+
 .people__inner {
   margin-top: 150px;
   display: flex;
@@ -588,6 +593,11 @@ a {
   box-shadow: 0 0 0 4px white, 0 0 0 6px #5d3bee; /* Tạo viền trắng ở giữa và viền xanh bên ngoài */
 }
 
+/* question */
+.question {
+  margin-top: 95px;
+}
+
 .question__number {
   position: relative;
   margin-top: 80px;
@@ -655,6 +665,47 @@ a {
   color: #5d3bee;
 }
 
+.question__number:hover .question__number .question__number::after {
+  background-color: #5d3bee;
+}
+
+/* My atmosphere */
+.atmostphere {
+  margin-top: 160px;
+}
+
 .atmosphere__heading {
   text-align: center;
+}
+
+.atmosphere__desc {
+  width: 528px;
+  text-align: center;
+  margin-left: 50px;
+}
+
+.atmosphere__id {
+  margin-top: 30px;
+  color: #5d3bee;
+  font-size: 3.2rem;
+  font-weight: 500;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: -1.28px;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: none;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+}
+
+.atmosphere__img {
+  margin-top: 70px;
+}
+
+.atmosphere__img img {
+  width: 370px;
+  height: 529px;
+  object-fit: cover;
 }
