@@ -805,7 +805,8 @@ a {
   padding: 20px 0;
 }
 
-.footer__policy a {
+.footer__policy a,
+.footer__copyright {
   margin-left: 26px;
   color: #525771;
   font-size: 1.8rem;
