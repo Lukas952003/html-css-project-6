@@ -709,3 +709,56 @@ a {
   height: 529px;
   object-fit: cover;
 }
+
+/* Talk */
+.talk {
+  margin-top: 140px;
+}
+
+.talk .container {
+  background: #fbfaff;
+  padding: 80px 0px;
+  overflow: hidden;
+}
+
+.talk__inner {
+  position: relative;
+  text-align: center;
+}
+
+.talk__emoji {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+}
+
+.talk__desc {
+  margin-left: 30px;
+}
+
+.talk__container-button {
+  margin-top: 50px;
+}
+
+.talk__decor-01 {
+  position: absolute;
+  top: -120px;
+  width: 90%;
+  left: 30px;
+}
+
+.talk__decor-02,
+.talk__decor-03 {
+  width: 50%;
+  position: absolute;
+}
+
+.talk__decor-02 {
+  left: -450px;
+  bottom: -150px;
+}
+
+.talk__decor-03 {
+  right: -450px;
+  top: -150px;
+}
