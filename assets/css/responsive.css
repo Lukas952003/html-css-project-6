@@ -175,6 +175,74 @@
   .special .people__slide {
     justify-content: center;
   }
+
+  /* Project */
+  .project {
+    padding-bottom: 100px;
+  }
+
+  .project__recents {
+    padding: 0 20px;
+  }
+
+  .project__title {
+    margin: 0 auto;
+    width: 301px;
+    text-align: center;
+    font-size: 3.6rem;
+    letter-spacing: 0;
+  }
+
+  .project__name {
+    margin-top: 20px;
+    padding: 0;
+  }
+
+  .project__recents .col-12:nth-child(3) .project__name {
+    margin-top: 0;
+  }
+
+  .project__desc {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding-top: 0;
+  }
+
+  .projects__title {
+    font-size: 2.4rem;
+    font-weight: 500;
+    line-height: 1.4;
+    letter-spacing: -0.96px;
+  }
+
+  .projects__left {
+    padding: 20px 15px;
+  }
+
+  .projects__left {
+    margin-right: 0px;
+  }
+
+  .projects__desc {
+    width: 176px;
+    font-size: 1.4rem;
+    letter-spacing: 1.42;
+  }
+
+  .projects__btn {
+    font-size: 1.6rem;
+  }
+
+  .project__right-img {
+    width: 122px;
+  }
+
+  .project__button {
+    margin-top: 50px;
+    text-align: center;
+  }
 }
 
 /* Tablet */
