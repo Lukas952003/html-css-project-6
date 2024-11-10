@@ -267,6 +267,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: start;
+  background: #fbfaff;
 }
 
 .special__name {

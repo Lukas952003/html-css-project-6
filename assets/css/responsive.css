@@ -11,6 +11,13 @@
     display: none;
   }
 
+  .header__tmb {
+    position: sticky;
+    top: 0px;
+    background-color: #fff;
+    z-index: 99999;
+  }
+
   .header__container {
     display: flex;
     align-items: center;
@@ -152,6 +159,21 @@
 
   .client__list img:hover {
     transform: scale(1.1);
+  }
+
+  /* Special */
+  .special__item {
+    margin-left: 0;
+    padding: 0 20px;
+  }
+
+  .row .col:nth-child(2) .special__item,
+  .row .col:nth-child(3) .special__item {
+    display: none;
+  }
+
+  .special .people__slide {
+    justify-content: center;
   }
 }
 
