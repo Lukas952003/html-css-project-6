@@ -127,6 +127,81 @@
       </div>
     </header>
 
+    <header class="header__tmb">
+      <div class="header__container">
+        <div class="header__icon">
+          <img src="./assets/img/logo.svg" alt="" class="header__icon-img" />
+        </div>
+        <div class="header__container-menu">
+          <div class="header__email">
+            <div class="header__container-email">
+              <img
+                src="./assets/img/email.svg"
+                alt="Email"
+                class="header__email-img"
+              />
+            </div>
+          </div>
+          <label class="header__menu-tbm" for="menu__checkbox">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="48"
+              height="48"
+              viewBox="0 0 34 34"
+              fill="none"
+              class="header__menu"
+            >
+              <circle opacity="0.2" cx="17" cy="17" r="16" stroke="#5D3BEE" />
+              <path
+                d="M10 20H25"
+                stroke="#5D3BEE"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M10 14H25"
+                stroke="#5D3BEE"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </label>
+        </div>
+      </div>
+
+      <div class="header__nav">
+        <input
+          type="checkbox"
+          name="menu__checkbox"
+          id="menu__checkbox"
+          class="menu__checkbox"
+          hidden
+        />
+        <label for="menu__checkbox" class="menu__overlay"></label>
+        <div class="menu__drawer">
+          <img src="./assets/img/logo.svg" alt="" class="header__icon-img" />
+          <nav class="nav">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="#!" class="nav__link">Projects</a>
+              </li>
+              <li class="nav__item">
+                <a href="#!" class="nav__link">Journey</a>
+              </li>
+              <li class="nav__item">
+                <a href="#!" class="nav__link">Service</a>
+              </li>
+              <li class="nav__item">
+                <a href="#!" class="nav__link">Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
     <!-- Hero -->
     <section class="hero">
       <div class="container">
@@ -137,11 +212,13 @@
                 src="./assets/img/hero-img.png"
                 alt="An Interactive Designer"
                 class="hero__left-img"
+                style="pointer-events: none"
               />
               <img
                 src="./assets/img/hero-decor.svg"
                 alt=""
                 class="hero__left-decor"
+                style="pointer-events: none"
               />
             </div>
           </div>
