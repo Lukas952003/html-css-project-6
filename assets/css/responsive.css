@@ -243,6 +243,32 @@
     margin-top: 50px;
     text-align: center;
   }
+
+  /* Interac */
+
+  .interac__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .interac__name {
+    padding: 0 30px;
+    margin-left: 0;
+  }
+
+  .interac__exp {
+    font-size: 3rem;
+  }
+
+  .interac__desc-exp {
+    font-size: 1.6rem;
+    width: 74px;
+  }
+
+  .video {
+    margin-top: -20px;
+  }
 }
 
 /* Tablet */
