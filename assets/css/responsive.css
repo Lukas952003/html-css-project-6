@@ -185,12 +185,18 @@
     padding: 0 20px;
   }
 
-  .project__title {
+  .interac__title {
+    font-size: 2rem;
+  }
+
+  .project__title,
+  .people__heading,
+  .interac__heading {
     margin: 0 auto;
-    width: 301px;
+    width: 315px;
     text-align: center;
     font-size: 3.6rem;
-    letter-spacing: 0;
+    letter-spacing: -1.44px;
   }
 
   .project__name {
@@ -202,12 +208,15 @@
     margin-top: 0;
   }
 
-  .project__desc {
+  .project__desc,
+  .people__desc {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
     padding-top: 0;
+    font-size: 1.6rem;
+    width: 350px;
   }
 
   .projects__title {
@@ -268,6 +277,15 @@
 
   .video {
     margin-top: -20px;
+  }
+
+  /* People */
+  .people__par {
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    width: 350px;
   }
 }
 
