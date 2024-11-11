@@ -3,6 +3,11 @@
   .header__tmb {
     display: none;
   }
+
+  .special .people__slide,
+  .atmostphere .people__slide {
+    display: none;
+  }
 }
 
 /* Tablet & Mobile */
@@ -416,6 +421,25 @@
 
 /* Tablet */
 @media screen and (min-width: 768px) and (max-width: 991px) {
+  .container {
+    transform: scale(1);
+  }
+
+  .project__name {
+    justify-content: space-around;
+  }
+
+  .projects__left {
+    transform: scale(1.2);
+  }
+
+  .project__right-img {
+    transform: scale(1.6);
+  }
+
+  .project__button {
+    padding-bottom: 20px;
+  }
 }
 
 /* Mobile */
