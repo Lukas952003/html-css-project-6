@@ -329,6 +329,34 @@
     font-weight: 400;
     line-height: 1.6;
   }
+
+  /* Atmosphere */
+  .atmostphere .people__slide {
+    margin: -80px auto 0 auto;
+  }
+
+  .atmosphere__id {
+    font-size: 2rem;
+  }
+
+  .atmostphere .col:nth-child(2) .atmosphere__img,
+  .atmostphere .col:nth-child(3) .atmosphere__img {
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  .atmosphere__img {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+  }
+
+  .atmosphere__img img {
+    width: 352px;
+    height: 503px;
+  }
 }
 
 /* Tablet */
