@@ -317,6 +317,7 @@ a {
   justify-content: center;
   padding: 24px;
   background: #fbfaff;
+  margin-top: 50px;
   transition: all 0.35s ease-in-out;
 }
 

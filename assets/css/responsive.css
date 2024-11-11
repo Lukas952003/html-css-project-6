@@ -417,6 +417,10 @@
   .footer__policy {
     order: 1;
   }
+
+  .people__slide {
+    padding-bottom: 20px;
+  }
 }
 
 /* Tablet */

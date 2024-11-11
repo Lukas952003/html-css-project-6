@@ -68,6 +68,10 @@
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
     <meta name="theme-color" content="#ffffff" />
 
+    <!-- Animation -->
+    <link rel="stylesheet" href="./assets/css/animate.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
     <!-- Font Awesome -->
     <link
       rel="stylesheet"
@@ -208,7 +212,9 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-5 hero__mb-1 col-12">
-            <div class="hero__inner-left">
+            <div
+              class="hero__inner-left animate__animated animate__bounceInLeft"
+            >
               <img
                 src="./assets/img/hero-img.png"
                 alt="An Interactive Designer"
@@ -225,16 +231,26 @@
           </div>
           <div class="col-lg-5 offset-lg-2 hero__mb-2 col-12">
             <div class="hero__innner-right">
-              <h1 class="hero__right-heading">An Interactive Designer</h1>
-              <p class="hero__right-desc">
+              <h1
+                class="hero__right-heading animate__animated animate__bounceInRight"
+              >
+                An Interactive Designer
+              </h1>
+              <p
+                class="hero__right-desc animate__animated animate__bounceInLeft"
+              >
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
                 urna, non nisl tincidunt ut elementum turpis.
               </p>
-              <div class="hero__right-button">
+              <div
+                class="hero__right-button animate__animated animate__bounceInRight"
+              >
                 <a href="" class="btn">Book a Call</a>
                 <a href="" class="btn hero__btn">My Works</a>
               </div>
-              <div class="hero__right-social">
+              <div
+                class="hero__right-social animate__animated animate__bounceInLeft"
+              >
                 <p class="hero__right-name">Follow me on:</p>
                 <img
                   src="./assets/img/hero-social.png"
@@ -254,12 +270,14 @@
         <div class="row">
           <div class="col-lg-3 offset-lg-1 col-12">
             <div class="client__inner">
-              <h3 class="client__heading">Meet my recent clients</h3>
+              <h3 class="client__heading" data-aos="fade-down">
+                Meet my recent clients
+              </h3>
             </div>
           </div>
           <div class="col col-12">
             <div class="client__inner">
-              <div class="client__list">
+              <div class="client__list" data-aos="fade-down">
                 <img
                   src="./assets/img/google.png"
                   alt="Google"
@@ -312,7 +330,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6 offset-lg-3 col-12">
-            <div class="special__inner">
+            <div class="special__inner" data-aos="flip-left">
               <h3 class="special__heading">Specialities</h3>
               <p class="special__desc">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
@@ -325,7 +343,7 @@
         <!-- Item -->
         <div class="row">
           <div class="col">
-            <div class="special__item">
+            <div class="special__item" data-aos="flip-right">
               <div class="special__image">
                 <img
                   src="./assets/img/special-light.svg"
@@ -341,7 +359,7 @@
             </div>
           </div>
           <div class="col">
-            <div class="special__item">
+            <div class="special__item" data-aos="flip-right">
               <div class="special__image">
                 <img
                   src="./assets/img/special-pencil.svg"
@@ -357,7 +375,7 @@
             </div>
           </div>
           <div class="col">
-            <div class="special__item">
+            <div class="special__item" data-aos="flip-right">
               <div class="special__image">
                 <img
                   src="./assets/img/specia;-mobile.svg"
@@ -388,10 +406,12 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-5 col-12">
-            <h2 class="project__title">Take a look at my recent projects</h2>
+            <h2 class="project__title" data-aos="zoom-in-down">
+              Take a look at my recent projects
+            </h2>
           </div>
           <div class="col-lg-6 offset-lg-1 col-12">
-            <p class="project__desc">
+            <p class="project__desc" data-aos="zoom-in-down">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna,
               non nisl tincidunt ut elementum turpis.
             </p>
@@ -399,8 +419,13 @@
         </div>
 
         <!-- Project Personal -->
-        <div class="project__recents">
-          <div class="row">
+        <div>
+          <div
+            class="row"
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
+          >
             <div class="col-lg-6 col-12">
               <div class="project__name">
                 <div class="projects__left">
@@ -421,7 +446,7 @@
             </div>
 
             <div class="col-lg-6 col-12">
-              <div class="project__name demo">
+              <div class="project__name">
                 <div class="projects__left">
                   <h4 class="projects__title">Banking App</h4>
                   <p class="projects__desc">
@@ -495,15 +520,20 @@
           <div class="col-lg-6 offset-lg-3 col-12">
             <div class="interac__inner">
               <div class="interac__container-title">
-                <h4 class="interac__title">Hey,,,,It’s Arif</h4>
+                <h4 class="interac__title" data-aos="fade-right">
+                  Hey,,,,It’s Arif
+                </h4>
                 <img
                   src="./assets/img/interac-hand.svg"
                   alt=""
                   class="interac__image-icon"
+                  data-aos="fade-right"
                 />
               </div>
-              <h3 class="interac__heading">Interactive Designer</h3>
-              <p class="interac__desc">
+              <h3 class="interac__heading" data-aos="fade-left">
+                Interactive Designer
+              </h3>
+              <p class="interac__desc" data-aos="fade-right">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
                 urna, non nisl tincidunt ut elementum turpis.
               </p>
@@ -512,7 +542,7 @@
         </div>
 
         <!-- Info -->
-        <div class="interac__info">
+        <div class="interac__info" data-aos="flip-up">
           <hr style="margin-bottom: -70px; margin-top: 70px" />
           <div class="row">
             <div class="col-4">
@@ -538,7 +568,7 @@
         </div>
 
         <!-- Video -->
-        <div class="interac__video">
+        <div class="interac__video" data-aos="flip-up">
           <img class="video" src="./assets/img/imgforvideo.png" / >
           <img src="./assets/img/button-play.png" alt="" class="button-play" />
           <h4 class="intro-video">Intro Video</h4>
@@ -876,5 +906,9 @@
         </div>
       </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
