@@ -357,6 +357,19 @@
     width: 352px;
     height: 503px;
   }
+
+  /* Talk */
+  .talk {
+    margin-top: 50px;
+  }
+
+  .talk__inner {
+    margin-top: -80px;
+  }
+
+  .talk__desc {
+    /* width: 350px; */
+  }
 }
 
 /* Tablet */
